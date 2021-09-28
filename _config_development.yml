@@ -1,11 +1,6 @@
-title: Resistance to fix features
-description: > # this means to ignore newlines until "baseurl:"
-  La Rebelion is result of frustration sentiment, because features in 
-  products or solutions (I use) are not enough or there is an opportunity 
-  area for improvement, but not included. Resistance to fix features.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rebelion.la" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -20,16 +15,6 @@ social-email: # add your Email address
 
 # Disqus
 discus-identifier: la-rebelion # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
-markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
 
 paginate: 8
 paginate_path: "/page/:num"
