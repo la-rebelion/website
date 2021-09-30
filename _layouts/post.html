@@ -4,15 +4,22 @@ layout: main
 <article class="article-page">
   <div class="page-content">
     {% if page.img %}
+    {% comment %} Validate if the post is referring to an external image {% endcomment %}
+      {% if page.external_image %}
+          {% assign imgSrc = page.img %}
+      {% else %}
+          {% capture imgSrc %}
+            {{"/assets/img/" | prepend: site.baseurl | append : page.img}}
+          {% endcapture %}
+      {% endif %}
     <div class="page-cover-image">
       <figure>
-        <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        <img class="page-image" src={{imgSrc}} alt="{{page.title}}">
         {% if page.fig-caption %}
           <figcaption>{{page.fig-caption}}</figcaption>
         {% endif %}
       </figure>
     </div> <!-- End Page Cover Image -->
-    {% else %}
     {% endif %}
     <div class="wrap-content">
       <header class="header-page">
