@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From Document to Code
+title: From Document to Code All in Sync
 date: 2021-09-29 13:32:20 -0600
 description:  > # this means to ignore newlines until next YAML property
     Some tools generate documentation from code, FroDoc is a tool to generate code 
@@ -8,10 +8,36 @@ description:  > # this means to ignore newlines until next YAML property
 external_image: true
 img: https://images.unsplash.com/photo-1573447985340-c13fb23e2e8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80
 fig-caption: # Add figcaption (optional)
-tags: [Documentation, UML, YAML, Markdown, Code]
+tags: [Documentation, UML, YAML, Markdown, Code, GitOps]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum rutrum faucibus. Sed dignissim nibh vitae erat dignissim, vel porta tellus malesuada. Cras elementum turpis eu nisl fermentum, et porta dolor cursus. Fusce viverra vestibulum turpis at eleifend. Quisque hendrerit consequat purus. Fusce odio justo, commodo at feugiat vel, sagittis et diam. In lectus justo, lobortis quis sapien ut, pulvinar fermentum diam. Sed euismod magna nec mattis viverra.
+"Continuous Everything" is the _New Approach to Product IT Operating Model_, and with FroDoc we are 
+looking to add value to this model, allowing the Business responsible, Operations team and Developers 
+to work even more in sync.
 
-Integer sed mauris varius, convallis libero at, tempor leo. Proin pretium convallis dolor convallis lacinia. Mauris varius blandit velit in lacinia. Praesent malesuada velit massa, a iaculis tortor iaculis vitae. Suspendisse ac viverra nulla, vel posuere quam. Phasellus vitae lacus odio. Aenean erat ex, imperdiet ut consequat vitae, iaculis in magna. Phasellus lobortis, lorem quis dignissim faucibus, nisl ante sollicitudin ipsum, vel laoreet risus urna in lectus. Donec tincidunt nibh eget sapien fringilla sagittis. Fusce lectus diam, aliquam sed eros quis, tincidunt dignissim nisl. Praesent et rutrum leo.
+**Who** are the systems and solutions architects after all? They are SMEs on solving problems with 
+specific tools/software, before becoming **Super Master Expert**, or Subject of Matter Expert, 
+for sure these guys were (or still are) developers, they spent lots of time programing on that 
+specific software/product/solution/framework they know from E2E. They can speak with businesspeople 
+and with technical teams, they are the bridge between these two worlds. Using FroDoc, they can speak 
+both languages, business and technical, at the same time.
+
+**What** do developers love most? **To code**; yes, we also love to learn something new, being 
+challenged and taking part of light speed moving industry that never ceases on creating new technologies, 
+frameworks, standards, you name it. With FroDoc you "code the documentation", then, FroDoc transforms 
+the documents into a specific programing language to run microservices or Smart Contracts, yes, 
+Smart Contracts as well.
+
+Other important piece in FroDoc, is **GitOps**, because with it, we can provide a mechanism to 
+safely deploy manifest files stored in a Git repository. By using Git as the single source of truth, 
+operators and developers can see what changes were made, conduct code reviews, and automate 
+testing. With GitOps tooling it is possible to monitor changes in the repository and safely 
+applying updates to the different environments.
+
+FroDoc's goal is to enable developers to manage the environments and solutions without having to worry 
+about the underlying platform, neither requiring deep knowledge of sysadmin, because solutions 
+can be automatically deployed in different environments.
+
+When something changes, which is too frequent, even more if you are applying an agile model 
+with frequent releases, then, with FroDoc, documentation is updated, and code will change automatically.
 
