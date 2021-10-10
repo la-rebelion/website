@@ -4,6 +4,8 @@ title: Jekyll Templates
 date: 2021-10-10 04:32:20 -0600
 description:  > # this means to ignore newlines until next YAML property
     Some nice Jekyll templates customizables with `_data` files.
+external_image: true
+img: https://images.unsplash.com/photo-1544794040-a6ab770bec83?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80
 tags: [Documentation, Jekyll, Themes]
 permalink: /jekyll/
 ---
