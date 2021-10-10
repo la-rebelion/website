@@ -1,30 +1,15 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# La Rebelion
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+_La Rebelion_ is result of frustration sentiment, we identify opportunity areas for 
+product improvements, then, we hack solutions to add features people wish and need. 
 
-## Demo
+Resistance to fix features. :fist:
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+## Credits:
 
-The main page would look like this:
-
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
-
-The post page would look like this:
-
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
-
-## Features
-
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
-
-## Installation:
-
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+* Based on theme by [Artem Sheludko](https://github.com/artemsheludko)
+  * [Flexible-Jekyll](https://github.com/artemsheludko/flexible-jekyll)
+  * [Flexton](https://github.com/artemsheludko/flexton)
 
 ## License
 

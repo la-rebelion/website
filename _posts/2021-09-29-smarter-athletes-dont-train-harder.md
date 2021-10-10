@@ -1,9 +1,9 @@
 ---
 layout: post
-title: From Document to Code
+title: Train smarter, not harder
 date: 2021-09-29 13:32:20 -0600
 description:  > # this means to ignore newlines until next YAML property
-    Train smarter, not harder
+    Zatelletaz helps you to find your training sweet spot, your optimal training intensity
 external_image: true
 img: https://images.unsplash.com/photo-1543164904-8ff92670a192?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80
 fig-caption: # Add figcaption (optional)

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: From Document to Code
+title: Your contact in case of emergencies
 date: 2021-09-29 13:32:20 -0600
 description:  > # this means to ignore newlines until next YAML property
-    Some tools generate documentation from code, FroDoc is a tool to generate code 
-    from documentation. Documentation and implementation always in sync!
+    Your emergency contacts for first responders in case you have an accident.
 external_image: true
 img: https://images.unsplash.com/photo-1507105306461-47f75f2da3aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80
 fig-caption: # Add figcaption (optional)

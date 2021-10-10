@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From Document to Code
+title: Cheat sheets for SysAdmins
 date: 2021-09-29 13:32:20 -0600
 description:  > # this means to ignore newlines until next YAML property
     A collection of snippets to make sysadmin's life easier.

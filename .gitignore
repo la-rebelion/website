@@ -3,9 +3,13 @@ _site
 .jekyll-metadata
 .jekyll-cache
 yarn.lock
+Gemfile
 Gemfile.lock
 package-lock.json
 node_modules/
+
+# Custom
+**.ignoreme.*
 
 ### macOS ###
 *.DS_Store
