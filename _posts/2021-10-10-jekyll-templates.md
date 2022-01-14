@@ -5,7 +5,7 @@ date: 2021-10-10 04:32:20 -0600
 description:  > # this means to ignore newlines until next YAML property
     Some nice Jekyll templates customizables with `_data` files.
 external_image: true
-img: https://images.unsplash.com/photo-1544794040-a6ab770bec83?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80
+img: https://github.com/la-rebelion/DevConf-Jekyll-Theme/blob/master/assets/images/template_screenshots/DevConf-Jekyll-Theme.png?raw=true
 tags: [Documentation, Jekyll, Themes]
 permalink: /jekyll/
 ---
@@ -21,6 +21,9 @@ slug: we-are-developers-2024
 
 
 You can find out more info about customizing our Jekyll themes in the README file.
+
+DevConf is a free Bootstrap 5 for Jekyll. The idea of this template is to emulate 
+an Eventbrite like website. See the template live [here](https://la-rebelion.github.io/DevConf-Jekyll-Theme).
 
 You can find the source code for [DevConf-Jekyll-Theme](https://github.com/la-rebelion/DevConf-Jekyll-Theme).
 
