@@ -1,24 +1,23 @@
-title: Resistance to fix features
+title: Experiment and Create
 description: > # this means to ignore newlines until "baseurl:"
-  La Rebelion is result of frustration sentiment, we identify opportunity areas for 
-  product improvements, then, we hack solutions to add features people wish and need. 
+  An entrepreneur is a 'Rebel' who experiments and creates. Hacking and seeking for change or new features. Continuously learning to apply state of the art tech and ideas. 
   Resistance to fix features.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rebelion.la" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+site-twitter: RebelionLabs #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Rebelion Labs
-author-img: sam-freeman.jpg # add your photo
-about-author: What a developer as user expectations are? Hacking and seeking for more features. Always hungry to keep learning applying state of the art on IT.
+author: Rebelion Labs (RL|LR)
+author-img: la-rebelion-logo.png # add your photo
+about-author: An entrepreneur is a 'Rebel' who experiments and creates. Hacking and seeking for change or new features. Continuously learning to apply state of the art tech and ideas.
 social-twitter: RebelionLabs
 social-facebook: # add your Facebook handle
 social-github: la-rebelion # add your Github handle
 social-linkedin: adrianescutia
 social-email: viva(AT)rebelion(DOT)la
 
-# Disqus
+# Disqus    
 discus-identifier: la-rebelion # add your discus identifier
 
 # Tracker

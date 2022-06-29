@@ -1,7 +1,6 @@
 # La Rebelion
 
-_La Rebelion_ is result of frustration sentiment, we identify opportunity areas for 
-product improvements, then, we hack solutions to add features people wish and need. 
+An entrepreneur is a _Rebel_ because is always experimenting and creating; hacking and seeking for change or new features. Continuously learning to apply state of the art tech and ideas. Then, **_La Rebelion_** is form by entrepreneurs, rebels who identify opportunity areas to do the things on different ways providing hacks to create new innovative solutions.
 
 Resistance to fix features. :fist:
 

@@ -1,0 +1,12 @@
+{% if include.block %}
+  {%- assign block_style = "btn-block" -%}
+{%- else -%}
+  {%- assign block_style = "" -%}
+{%- endif -%}
+
+{% if page.cta_description %}
+  {% include elements/highlight.html text=page.cta_description %}
+{% endif -%}
+<a class="m-1 btn btn-{{ include.style | default: 'outline-primary' }} btn-{{ include.size | default: 'md' }} {{ block_style }}" href="{{ page.cta_destination | include.link | default: '#' }}">
+  {{ page.cta_short_text | include.text | default: "Button" }}
+</a>

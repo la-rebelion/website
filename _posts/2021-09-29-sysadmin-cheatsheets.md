@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cheat sheets for SysAdmins
-date: 2021-09-29 13:32:20 -0600
+date: 2021-10-29 12:32:20 -0600
 description:  > # this means to ignore newlines until next YAML property
     A collection of snippets to make sysadmin's life easier.
 external_image: true
@@ -10,7 +10,12 @@ fig-caption: # Add figcaption (optional)
 tags: [Kubernetes, Docker, Cloud, SysAdmin, Code, Programming]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum rutrum faucibus. Sed dignissim nibh vitae erat dignissim, vel porta tellus malesuada. Cras elementum turpis eu nisl fermentum, et porta dolor cursus. Fusce viverra vestibulum turpis at eleifend. Quisque hendrerit consequat purus. Fusce odio justo, commodo at feugiat vel, sagittis et diam. In lectus justo, lobortis quis sapien ut, pulvinar fermentum diam. Sed euismod magna nec mattis viverra.
+Are you struggling with some task to setup a new environment or idea? If you need only the steps to do the task without the heavy explanations, here you find the snippets to copy-paste and go!
 
-Integer sed mauris varius, convallis libero at, tempor leo. Proin pretium convallis dolor convallis lacinia. Mauris varius blandit velit in lacinia. Praesent malesuada velit massa, a iaculis tortor iaculis vitae. Suspendisse ac viverra nulla, vel posuere quam. Phasellus vitae lacus odio. Aenean erat ex, imperdiet ut consequat vitae, iaculis in magna. Phasellus lobortis, lorem quis dignissim faucibus, nisl ante sollicitudin ipsum, vel laoreet risus urna in lectus. Donec tincidunt nibh eget sapien fringilla sagittis. Fusce lectus diam, aliquam sed eros quis, tincidunt dignissim nisl. Praesent et rutrum leo.
+Example of snippets or post you can find:
 
+* [Installing Kubernetes and Docker in offline scenarios](https://adrianes.rebelion.la/snippets/kubernetes/install-kubernetes-docker-offline): Steps to prepare an environment to install Kubernetes and Docker on Red Hat 7 or CentOS where it is not possible to access the internet ([air gap](https://en.wikipedia.org/wiki/Air_gap_(networking)) environments).
+* How to configure [Multiple Git host or repositories](https://adrianes.rebelion.la/snippets/git/git-multiple-host-repos): If you have a problem with multiple accounts for Git, here you find a solution to access with different credentials.
+* [Restrict commands to user in Linux](https://adrianes.rebelion.la/snippets/linux/restricted-user-in-linux): If you need to create a user with limited permissions (ssh jailed user).
+
+These and more snippets for SysAdmins [here](https://adrianes.rebelion.la/snippets).
