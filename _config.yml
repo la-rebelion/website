@@ -10,7 +10,7 @@ site-twitter: RebelionLabs #if your site has a twitter account, enter it here
 # Author Settings
 author: Rebelion Labs (RL|LR)
 author-img: la-rebelion-logo.png # add your photo
-about-author: An entrepreneur is a 'Rebel' who experiments and creates. Hacking and seeking for change or new features. Continuously learning to apply state of the art tech and ideas.
+about-author: 'An entrepreneur is a rebel in that: he experiments, hacks and creates new ways of doing things.'
 social-twitter: RebelionLabs
 social-facebook: # add your Facebook handle
 social-github: la-rebelion # add your Github handle
@@ -27,11 +27,88 @@ analytics: G-5QXB4Y9B0R # Google Analytics
 markdown: kramdown
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
   - jemoji
+#  - jekyll-paginate
+#  - jekyll-paginate-content
 #  - jekyll-spaceship
 
-paginate: 8
-paginate_path: "/page/:num"
+paginate: false
+#paginate: 8
+#paginate_path: "/page/:num"
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# Exclude my node related stuff
+exclude: [
+  'node_modules', 
+  'gulpfile.js', 
+  'yarn.lock',
+  'package.json',
+  'package-lock.json',
+  'src',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'README.md'
+]
+
+# Merged from Jekflix
+tags:
+  - blog
+  - Kubernetes
+  - Helm
+  - Helmee
+  - FroDoc
+  - Zatelletaz
+  - Contak
+show_hero: true
+# no menu
+menu:
+  - title: Home
+    url: /
+#  - title: About
+#    url: /about
+#  - title: Contact
+#    url: /contact
+  - title: Feed
+    url: /feed.xml
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: true
+show_modal_on_finish_post: true
+two_columns_layout: true
+categories_folder: category
+# Build settings
+highlighter: rouge
+collections:
+  #authors:
+  #  output: true
+  helmee:
+    output: true
+show_get_theme_btn: true
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: false
+  debug: false
+  collections:
+    - posts
+    - helmee
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Jekflix Theme
+version: v3.1.1

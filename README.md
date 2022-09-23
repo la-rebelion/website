@@ -1,6 +1,6 @@
 # La Rebelion
 
-An entrepreneur is a _Rebel_ because is always experimenting and creating; hacking and seeking for change or new features. Continuously learning to apply state of the art tech and ideas. Then, **_La Rebelion_** is form by entrepreneurs, rebels who identify opportunity areas to do the things on different ways providing hacks to create new innovative solutions.
+An entrepreneur is a _Rebel_ because is always experimenting and creating; hacking and seeking for change or new features. Continuously learning to apply state of the art tech and ideas. Then, **_La Rebelion_** is form by innovators, entrepreneurs, rebels who identify opportunity areas to do the things on different ways providing hacks to create new innovative solutions.
 
 Resistance to fix features. :fist:
 
