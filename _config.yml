@@ -84,6 +84,8 @@ collections:
   #  output: true
   helmee:
     output: true
+  mexa:
+    output: true
 show_get_theme_btn: true
 use_logo: false
 
@@ -94,6 +96,7 @@ paginate_content:
   collections:
     - posts
     - helmee
+    - mexa
   auto: false
   separator: "--page-break--"
   permalink: "/:num/"

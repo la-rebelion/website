@@ -1,23 +1,24 @@
 ---
 layout: main_jekflix
-title: Helmee helps you to navigate easily on Helm and Kubernetes ocean
-image: https://images.unsplash.com/photo-1570783700979-ab82b9250371?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80
+title: Here you will find articles to solve your DevOps and SysAdmin challenges.
+description: Mexa is the place for innovators and entrepreneurs that code, Mexa will guide you on how to create different tools for your day to day activities. Mexa translated from Maltese to "make progress", "to follow someone else steps", also mexa is a connotation to refer to Mexicans (brands , and people).
+image: https://images.unsplash.com/photo-1553559707-0d8e571f58e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80
 references:
   photo:
-    from: Loik Marras
-    url: https://unsplash.com/@loik_marras?utm_source=la-rebelion&utm_medium=referral
+    from: Jon Tyson
+    url: https://unsplash.com/@jontyson?utm_source=la-rebelion&utm_medium=referral
     source: unsplash
-categories: Helmee
+categories: Mexa
 index: true
-permalink: /helmee/index.html
+permalink: /mexa/index.html
 ---
 
-{% assign posts = site.helmee %}
+{% assign posts = site.mexa %}
 
 <main class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}" role="main">
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
-        {% assign featured = site.helmee | where: "index", "true" | first %}
+        {% assign featured = site.mexa | where: "index", "true" | first %}
         <section class="hero" style="background-image: url({{ featured.image }})">
             <div class="pixels"></div>
             <div class="gradient"></div>
