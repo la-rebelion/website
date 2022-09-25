@@ -13,11 +13,13 @@ layout: default
     </div>
     <div>
     {% for collection in site.collections %}
-      <h4>
-        <a href="{{site.baseurl}}/{{ collection.label }}">
-          {{ collection.label }}
-        </a>
-      </h4>
+      {% unless collection.label == 'posts' %}
+        <h4>
+          <a href="{{site.baseurl}}/{{ collection.label }}">
+            {{ collection.label }}
+          </a>
+        </h4>
+      {% endunless %}
     {% endfor %}
     </div>
   </header> <!-- End Header -->

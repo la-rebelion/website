@@ -32,7 +32,7 @@ plugins:
 #  - jekyll-paginate-content
 #  - jekyll-spaceship
 
-paginate: false
+#paginate: 0
 #paginate: 8
 #paginate_path: "/page/:num"
 

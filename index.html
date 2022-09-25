@@ -2,7 +2,14 @@
 layout: main
 ---
 <h2 class="post-title">Projects working on</h2>
-{% for post in paginator.posts %}
+
+{% if site.paginate %}
+    {% assign posts = paginator.posts | where_exp:"post","post.is_generated != true" %}
+{% else %}
+    {% assign posts = site.posts | where_exp:"post","post.is_generated != true" %}
+{% endif %}
+
+{% for post in posts %}
 <article class="post">
   {% if post.img %}
   {% comment %} Validate if the post is referring to an external image {% endcomment %}
